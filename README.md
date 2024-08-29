@@ -1,8 +1,8 @@
 # OpenData Bridge - オープンデータの加工と共有をシンプルに
 
 ## 作品概要
-- **OpenData Bridge**は、オープンデータの生成、加工、そして共有をサポートするツール群を提供します。  
-- 私達は前回の都知事杯Open Data Hackathon2023で提案したオープンデータの整形を行うツール群、OpenData Bridgeを複数のプロジェクトに実戦投入してきました。
+- **OpenData Bridge**は、オープンデータの整形・共有をサポートするツール群を提供します。  
+- 私達は前回の都知事杯Open Data Hackathon2023で提案したOpenData Bridgeを複数のプロジェクトに実戦投入してきました。
 - 今回の都知事杯ではそこで見えてきた課題を解消し、オープンデータ生成・整形の促進と、目的に応じたデータ加工がもっと簡単に行える環境を整えて行きます。
 
 
@@ -13,10 +13,16 @@
 ## 作品構成要素
 | 構成要素       | 概要                                                                 | GitHub Repository                              |  デモ                     |
 |----------------|----------------------------------------------------------------------|-----------------------------------------------|------------------------------|
-| **ODB-Lab**    | 生成AIによるデータ整形支援のUI |- [CMS](https://github.com/dx-junkyard/opendata-bridge-cms)<br>- [frontend](https://github.com/dx-junkyard/opendata-bridge-frontend) <br>- [LLM component](https://github.com/dx-junkyard/fast-api-with-open-interpreter) <br>- [ODBridge-proxy-api](https://github.com/dx-junkyard/OpenData-Bridge-proxy-api)  | [動画（※ 今回、これをデスクトップアプリに）](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5827s) |
+| **ODB-Lab**    | 生成AIによるデータ整形支援のUI |- [CMS](https://github.com/dx-junkyard/opendata-bridge-cms)<br>- [frontend](https://github.com/dx-junkyard/opendata-bridge-frontend) <br>- [LLM component](https://github.com/dx-junkyard/fast-api-with-open-interpreter) <br>- [ODBridge-proxy-api](https://github.com/dx-junkyard/OpenData-Bridge-proxy-api)  | [動画（※ 今回これをデスクトップアプリ化）](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5827s) |
 | **ODB-Library**| データ変換のパーツやpipeline定義の登録・共有                               |- [ODB-Library](https://github.com/dx-junkyard/OpenData-Library) |  [デモ環境構築](https://github.com/dx-junkyard/OpenData-Library) |
 | **ODB-Pipeline**| データ処理のパーツを組合せ、トークン費用を気にせず大量のデータを処理   |- [ODB-pipeline](https://github.com/dx-junkyard/OpenData-Bridge-pipeline)  |  [デモ環境構築(ODB-Libraryと同じ)](https://github.com/dx-junkyard/OpenData-Library) |
 | **ODB-Archive** | データの加工結果を補完、共有                        |- [ODB-Archive](https://github.com/dx-junkyard/OpenData-Archive)  | [射水市の人口データ加工結果](https://github.com/dx-junkyard/OpenData-Archive/tree/main/LocalGovData/162116_city_imizu/PopulationData) |
+
+## 実戦投入により見えてきた課題と解消方法
+- マルチユーザー管理の開発コスト → デスクトップアプリ化
+- 行政サービスカタログ作成時のサービス概要の完成度　→　LLMをpipelineに組み込むことで自然な日本語で概要生成
+- 行政サービスカタログ検索のニーズ　→ カタログ検索機能（ODB-Search）の実装
+- ツールの導入だけでは解決しないクセのあるデータ整形　→ コミュニティによるサポート
 
 ## 作品のロードマップ
 ![ロードマップ](odb_roadmap.jpg)
