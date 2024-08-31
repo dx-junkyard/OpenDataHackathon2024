@@ -11,13 +11,13 @@
 - 前回DemoDay 〜 今回FirstStageまでの実績: 行政サービスカタログ化PJ（２件）
 
 ## 作品構成要素
-| 構成要素       | 概要                                                                 | GitHub Repository                              |  デモ                     |
+| 構成要素       | 概要                                                                 | GitHub Repository<br>（前回都知事杯からの差分）                          |  デモ                     |
 |----------------|----------------------------------------------------------------------|-----------------------------------------------|------------------------------|
-| **ODB-Lab**    | 生成AIによるデータ整形支援のUI |- [odb-app](https://github.com/dx-junkyard/odb-app) | [動画（※ 今回これをデスクトップアプリ化）](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5827s) |
-| **ODB-Library**| データ変換のパーツやpipeline定義の登録・共有                               |- [ODB-Library](https://github.com/dx-junkyard/OpenData-Library) |  [デモ環境構築](https://github.com/dx-junkyard/OpenData-Library) |
-| **ODB-Pipeline**| データ処理のパーツを組合せ、トークン費用を気にせず大量のデータを処理   |- [ODB-pipeline](https://github.com/dx-junkyard/OpenData-Bridge-pipeline)  |  [デモ環境構築(ODB-Libraryと同じ)](https://github.com/dx-junkyard/OpenData-Library) |
-| **ODB-Archive** | データの加工結果を補完、共有                        |- [ODB-Archive](https://github.com/dx-junkyard/OpenData-Archive)  | [射水市の人口データ加工結果](https://github.com/dx-junkyard/OpenData-Archive/tree/main/LocalGovData/162116_city_imizu/PopulationData) |
-| **ODB-Search** | pipelineで作成したデータ（例：行政サービスのカタログ）の検索  |- [ODB-Search（新規）](https://github.com/dx-junkyard/odb-search)  | [ODB-Search](https://github.com/dx-junkyard/odb-search) |
+| **ODB-Lab**    | 生成AIによるデータ整形支援のUI |[ODB-App（新規）](https://github.com/dx-junkyard/odb-app) | [このデモ](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5827s)の内容をアプリ化 |
+| **ODB-Library**| データ変換のパーツやpipeline定義の登録・共有                               |[ODB-Library（事例追加）](https://github.com/dx-junkyard/OpenData-Library) |  [デモ環境構築](https://github.com/dx-junkyard/OpenData-Library) |
+| **ODB-Pipeline**| データ処理のパーツを組合せ、トークン費用を気にせず大量のデータを処理   |[ODB-pipeline（機能追加予定）](https://github.com/dx-junkyard/OpenData-Bridge-pipeline)  |  [デモ環境構築(ODB-Libraryと同じ)](https://github.com/dx-junkyard/OpenData-Library) |
+| **ODB-Archive** | データの加工結果を補完、共有                        |[ODB-Archive](https://github.com/dx-junkyard/OpenData-Archive)  | [射水市の人口データ加工結果](https://github.com/dx-junkyard/OpenData-Archive/tree/main/LocalGovData/162116_city_imizu/PopulationData) |
+| **ODB-Search** | pipelineで作成したデータ（例：行政サービスのカタログ）の検索  |[ODB-Search（新規）](https://github.com/dx-junkyard/odb-search)  | [ODB-Search](https://github.com/dx-junkyard/odb-search) |
 
 ## 実戦投入により見えてきた課題と解消方法
 - マルチユーザー管理の開発コスト → デスクトップアプリ化（ODB-App）
