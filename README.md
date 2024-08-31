@@ -17,16 +17,21 @@
 | **ODB-Library**| データ変換のパーツやpipeline定義の登録・共有                               |- [ODB-Library](https://github.com/dx-junkyard/OpenData-Library) |  [デモ環境構築](https://github.com/dx-junkyard/OpenData-Library) |
 | **ODB-Pipeline**| データ処理のパーツを組合せ、トークン費用を気にせず大量のデータを処理   |- [ODB-pipeline](https://github.com/dx-junkyard/OpenData-Bridge-pipeline)  |  [デモ環境構築(ODB-Libraryと同じ)](https://github.com/dx-junkyard/OpenData-Library) |
 | **ODB-Archive** | データの加工結果を補完、共有                        |- [ODB-Archive](https://github.com/dx-junkyard/OpenData-Archive)  | [射水市の人口データ加工結果](https://github.com/dx-junkyard/OpenData-Archive/tree/main/LocalGovData/162116_city_imizu/PopulationData) |
+| **ODB-Search** | pipelineで作成したデータ（例：行政サービスのカタログ）の検索  |- [ODB-Search（新規）](https://github.com/dx-junkyard/odb-search)  | [ODB-Search](https://github.com/dx-junkyard/odb-search) |
 
 ## 実戦投入により見えてきた課題と解消方法
-- マルチユーザー管理の開発コスト → デスクトップアプリ化
-- 行政サービスカタログ作成時のサービス概要の完成度　→　LLMをpipelineに組み込むことで自然な日本語で概要生成
+- マルチユーザー管理の開発コスト → デスクトップアプリ化（ODB-App）
+- 行政サービスカタログ作成時のサービス概要の完成度　→　LLMをpipelineに組み込むことで自然な日本語で概要生成（ODB-Pipeline）
 - 行政サービスカタログ検索のニーズ　→ カタログ検索機能（ODB-Search）の実装
 - ツールの導入だけでは解決しないクセのあるデータ整形　→ コミュニティによるサポート
 
 ## 作品のロードマップ
 ![ロードマップ](odb_roadmap.jpg)
 
+
+## （今回）都知事杯オープンデータ・ハッカソン2023DemoDay発表資料
+- [2024/08/29 資料](2024_odh_first_stage.pdf)
+- 動画（後日リンク設定）
 
 ## （前回）都知事杯オープンデータ・ハッカソン2023DemoDay発表資料
 - [2024/03/16 動画](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5723s)
