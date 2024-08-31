@@ -11,7 +11,7 @@
 - 前回DemoDay 〜 今回FirstStageまでの実績: 行政サービスカタログ化PJ（２件）
 
 ## 作品構成要素
-| 構成要素       | 概要                                                                 | GitHub Repository<br>（前回都知事杯からの差分）                          |  デモ                     |
+| 構成要素       | 概要                                                                 | GitHub Repository<br>（前回からの差分）                          |  デモ                     |
 |----------------|----------------------------------------------------------------------|-----------------------------------------------|------------------------------|
 | **ODB-Lab**    | 生成AIによるデータ整形支援のUI |[ODB-App（新規）](https://github.com/dx-junkyard/odb-app) | [このデモ](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5827s)の内容をアプリ化 |
 | **ODB-Library**| データ変換のパーツやpipeline定義の登録・共有                               |[ODB-Library（事例追加）](https://github.com/dx-junkyard/OpenData-Library) |  [デモ環境構築](https://github.com/dx-junkyard/OpenData-Library) |
