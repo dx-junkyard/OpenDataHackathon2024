@@ -13,7 +13,7 @@
 ## 作品構成要素
 | 構成要素       | 概要                                                                 | GitHub Repository                              |  デモ                     |
 |----------------|----------------------------------------------------------------------|-----------------------------------------------|------------------------------|
-| **ODB-Lab**    | 生成AIによるデータ整形支援のUI |- [CMS](https://github.com/dx-junkyard/opendata-bridge-cms)<br>- [frontend](https://github.com/dx-junkyard/opendata-bridge-frontend) <br>- [LLM component](https://github.com/dx-junkyard/fast-api-with-open-interpreter) <br>- [ODBridge-proxy-api](https://github.com/dx-junkyard/OpenData-Bridge-proxy-api)  | [動画（※ 今回これをデスクトップアプリ化）](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5827s) |
+| **ODB-Lab**    | 生成AIによるデータ整形支援のUI | [odb-app](https://github.com/dx-junkyard/odb-app) | [動画（※ 今回これをデスクトップアプリ化）](https://www.youtube.com/watch?v=GrIohSqZYEY&t=5827s) |
 | **ODB-Library**| データ変換のパーツやpipeline定義の登録・共有                               |- [ODB-Library](https://github.com/dx-junkyard/OpenData-Library) |  [デモ環境構築](https://github.com/dx-junkyard/OpenData-Library) |
 | **ODB-Pipeline**| データ処理のパーツを組合せ、トークン費用を気にせず大量のデータを処理   |- [ODB-pipeline](https://github.com/dx-junkyard/OpenData-Bridge-pipeline)  |  [デモ環境構築(ODB-Libraryと同じ)](https://github.com/dx-junkyard/OpenData-Library) |
 | **ODB-Archive** | データの加工結果を補完、共有                        |- [ODB-Archive](https://github.com/dx-junkyard/OpenData-Archive)  | [射水市の人口データ加工結果](https://github.com/dx-junkyard/OpenData-Archive/tree/main/LocalGovData/162116_city_imizu/PopulationData) |
